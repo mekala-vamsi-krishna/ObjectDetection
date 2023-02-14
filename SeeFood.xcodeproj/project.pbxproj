@@ -13,6 +13,7 @@
 		15AFCAE2299B20B500C523C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15AFCAE0299B20B500C523C9 /* Main.storyboard */; };
 		15AFCAE4299B20BB00C523C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15AFCAE3299B20BB00C523C9 /* Assets.xcassets */; };
 		15AFCAE7299B20BB00C523C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15AFCAE5299B20BB00C523C9 /* LaunchScreen.storyboard */; };
+		15AFCAF1299B216200C523C9 /* Inceptionv3.mlpackage in Sources */ = {isa = PBXBuildFile; fileRef = 15AFCAF0299B216200C523C9 /* Inceptionv3.mlpackage */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		15AFCAE3299B20BB00C523C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		15AFCAE6299B20BB00C523C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		15AFCAE8299B20BB00C523C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15AFCAF0299B216200C523C9 /* Inceptionv3.mlpackage */ = {isa = PBXFileReference; lastKnownFileType = folder.mlpackage; path = Inceptionv3.mlpackage; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				15AFCAE3299B20BB00C523C9 /* Assets.xcassets */,
 				15AFCAE5299B20BB00C523C9 /* LaunchScreen.storyboard */,
 				15AFCAE8299B20BB00C523C9 /* Info.plist */,
+				15AFCAF0299B216200C523C9 /* Inceptionv3.mlpackage */,
 			);
 			path = SeeFood;
 			sourceTree = "<group>";
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				15AFCAF1299B216200C523C9 /* Inceptionv3.mlpackage in Sources */,
 				15AFCADF299B20B400C523C9 /* ViewController.swift in Sources */,
 				15AFCADB299B20B400C523C9 /* AppDelegate.swift in Sources */,
 				15AFCADD299B20B400C523C9 /* SceneDelegate.swift in Sources */,
@@ -290,17 +294,20 @@
 				DEVELOPMENT_TEAM = K4K55XNXA6;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SeeFood/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "we need your camera to take pictures";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "we need your photos";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.SeeFood;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.verdict.Verdict;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -318,17 +325,20 @@
 				DEVELOPMENT_TEAM = K4K55XNXA6;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SeeFood/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "we need your camera to take pictures";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "we need your photos";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.SeeFood;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.verdict.Verdict;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
